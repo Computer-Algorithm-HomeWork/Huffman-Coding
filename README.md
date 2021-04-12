@@ -98,15 +98,18 @@ public static void traversal(Node n,String s){
 
 입력된 위의 문자열은 우선순위 큐를 이용해 완전이진트리를 구성한다.
 
+<img width="191" alt="root left" src="https://user-images.githubusercontent.com/72187869/114439271-c2aec280-9c03-11eb-9a85-f968a30ce7dc.png">
+<img width="176" alt="root right" src="https://user-images.githubusercontent.com/72187869/114439274-c4788600-9c03-11eb-8940-be78f189826f.png">
 
+프로그램을 실행하면 다음과 같이 값이 들어가게 된다. 이를 그림으로 다시 도식화하면,
+
+![Tree](https://user-images.githubusercontent.com/72187869/114439080-8b401600-9c03-11eb-8a2c-28ad52e8dd18.jpg)
 
 위의 그림과 같이 트리를 구성하게 되는데, 값을 가진 노드는 단말노드 뿐이다.
 
 각 노드마다 왼쪽 자식노드에는 `0`을, 오른쪽 자식노드에는 `1`을 부여한다.
 
-
-
-따라서 위의 실행결과는 부여된 `0`과 `1`을 단말노드까지 읽어 이진코드를 얻었다.
+따라서 `0`과 `1`을 루트노드부터 단말노드까지 순서대로 읽어 이진코드를 얻었다.
 
 >`!`: 000
 `I`: 0010
@@ -120,6 +123,8 @@ public static void traversal(Node n,String s){
 이를 입력한 문자열 순서대로 이진코드를 출력하면 다음과 같다.
 
 > 1001 0010 11 01 01 01 11 0011 101 1000 000 000
+
+<img width="338" alt="result" src="https://user-images.githubusercontent.com/72187869/114439206-b4f93d00-9c03-11eb-8831-099ea7b48d05.png">
 
 ---
 

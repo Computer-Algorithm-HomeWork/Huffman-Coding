@@ -1,7 +1,7 @@
 # Huffman-Coding
 컴퓨터 알고리즘 6주차 팀과제
 * 나병운 - 소개
-* 고희수 - 소스코드
+* 201701643 고희수 - 소스코드
 * 최종민 - 실행결과
 * 이정수 - 마무리
 
@@ -52,7 +52,7 @@ return queue.poll();
 ```java
 HashMap<Character,Integer> dictionary = new HashMap<Character,Integer>(); // 빈도 수 확인
 ```
-해시맵을 사용하여 빈도 수를 확인한다.
+해시맵을 사용하여 빈도 수를 확인한다.(결과 출력 시 입력받은 문자열과 대조)
 
 ```java
 for (Character c : dictionary.keySet()){  // 우선순위 큐 삽입
@@ -84,7 +84,7 @@ public static void traversal(Node n,String s){
         System.out.println(n.character+ ":" +s);  
   charToCode.put(n.character,s);
   ```
-  루트노드를 시작으로 트리를 순회하면서 허프만 알고리즘이 적용된다.
+  루트노드를 시작으로 트리를 순회(traversal)하면서 0,1을 붙여 허프만 알고리즘을 적용한다.
   
   ------------------
 

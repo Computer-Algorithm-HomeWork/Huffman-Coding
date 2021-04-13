@@ -105,7 +105,7 @@ public static void traversal(Node n,String s){
 
 프로그램을 실행하면 다음과 같이 값이 들어가게 된다. 이를 그림으로 다시 도식화하면,
 
-![Tree](https://user-images.githubusercontent.com/72187869/114439080-8b401600-9c03-11eb-8a2c-28ad52e8dd18.jpg)
+![Tree](https://user-images.githubusercontent.com/72187869/114495624-59599e80-9c59-11eb-997a-4ed62eee701e.jpg)
 
 위의 그림과 같이 트리를 구성하게 되는데, 값을 가진 노드는 단말노드 뿐이다.
 
